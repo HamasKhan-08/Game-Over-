@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+char answer;
+		cout << "Would you like to continue? (Y/N)" << endl;
+		cin >> answer; 
+
+			switch (answer)
+			{ 
+			
+			case 'Y':
+			case 'y':
+			{
+				cout << "You selected yes" << endl;
+				break;
+			}
+					
+			case 'N':
+			case 'n':
+			{
+				cout << "You selected no" << endl;
+				break;
+			}
+					
+			default: 
+      {
+      cout << " Incorrect Command " << endl;
+      }
+}
